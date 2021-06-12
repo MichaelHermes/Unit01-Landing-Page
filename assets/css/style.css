@@ -1,0 +1,59 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid dimgray;
+    top: 0;
+}
+
+header, footer {
+    height: 60px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+}
+
+header nav {
+    border: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+h1, h2 {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: wheat;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
